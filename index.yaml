@@ -3,7 +3,7 @@ entries:
   mimir-distributed:
   - apiVersion: v2
     appVersion: r225
-    created: "2023-03-20T16:28:59.147258-04:00"
+    created: "2023-03-20T16:46:33.233755-04:00"
     dependencies:
     - alias: minio
       condition: minio.enabled
@@ -21,12 +21,12 @@ entries:
       repository: https://grafana.github.io/helm-charts
       version: 0.2.0
     description: Grafana Mimir
-    digest: 52a461cdb8e09c7c636d1e345b822404656880e2e6fe2002fe5d4a822d7b3a85
+    digest: ad1ae25c1dc9d01b8d5735bc26b1bfedf5276d1291b1e4ec73fb741353a69064
     home: https://grafana.com/docs/mimir/v2.5.x/
     icon: https://grafana.com/static/img/logos/logo-mimir.svg
     kubeVersion: ^1.20.0-0
     name: mimir-distributed
     urls:
-    - https://github.com/shanmugara/mimir-helm/mimir-distributed-4.1.0-weekly.225.tgz
+    - https://shanmugara.github.io/mimir-helm/mimir-distributed-4.1.0-weekly.225.tgz
     version: 4.1.0-weekly.225
-generated: "2023-03-20T16:28:59.136209-04:00"
+generated: "2023-03-20T16:46:33.221403-04:00"
