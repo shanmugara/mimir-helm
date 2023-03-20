@@ -3,7 +3,7 @@ entries:
   mimir-distributed:
   - apiVersion: v2
     appVersion: r225
-    created: "2023-03-20T15:48:53.818094-04:00"
+    created: "2023-03-20T16:28:59.147258-04:00"
     dependencies:
     - alias: minio
       condition: minio.enabled
@@ -27,6 +27,6 @@ entries:
     kubeVersion: ^1.20.0-0
     name: mimir-distributed
     urls:
-    - https://shanmugara.github.io/mimir-helm/mimir-distributed-4.1.0-weekly.225.tgz
+    - https://github.com/shanmugara/mimir-helm/mimir-distributed-4.1.0-weekly.225.tgz
     version: 4.1.0-weekly.225
-generated: "2023-03-20T15:48:53.80481-04:00"
+generated: "2023-03-20T16:28:59.136209-04:00"
